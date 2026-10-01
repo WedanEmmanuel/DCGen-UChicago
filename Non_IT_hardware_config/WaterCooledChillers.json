@@ -1,0 +1,71 @@
+{
+    "Vertiv HPC-WS1027" : 
+    {
+        "Capacity": 283,
+        "PeakPowerConsumption": 58,
+        "Dimensions":
+        {
+            "Height": 2 ,
+            "Width":4.35 ,
+            "Depth": 0.89
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2013"  
+    }, 
+
+    "Vertiv HPC-WS2119" : 
+    {
+        "Capacity": 1203,
+        "PeakPowerConsumption": 247,
+        "Dimensions":
+        {
+            "Height": 2.13,
+            "Width":4.65,
+            "Depth": 1.75
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2013"  
+    }, 
+
+    "Vertiv OFC-WT4200B" : 
+    {
+        "Capacity": 2400,
+        "PeakPowerConsumption": 312,
+        "Dimensions":
+        { 
+            "Height": 2.3,
+            "Width":1.6,
+            "Depth": 6
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }, 
+
+    "Vertiv OFC-WT4040B" : 
+    {
+        "Capacity": 450,
+        "PeakPowerConsumption": 57,
+        "Dimensions":
+        { 
+            "Height": 1.96,
+            "Width":1,
+            "Depth": 3
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    },
+
+    "Vertiv OFC-WT4090A" : 
+    {
+        "Capacity": 1050,
+        "PeakPowerConsumption": 145,
+        "Dimensions":
+        { 
+            "Height": 2.2,
+            "Width":1.6,
+            "Depth": 4
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }
+}

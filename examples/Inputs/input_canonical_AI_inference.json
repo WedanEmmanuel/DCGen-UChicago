@@ -1,0 +1,8 @@
+{
+            "datacenter_use_case" : "AI inference" , 
+            
+            "datacenter_scale"   :{ "target": "gpu_power",
+                                     "capacity": "100 MW"     
+                                   }
+            
+}

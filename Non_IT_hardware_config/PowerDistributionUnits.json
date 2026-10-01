@@ -1,0 +1,57 @@
+{
+    "Vertiv Liebert SPM" : 
+    {
+        "Capacity": 400,
+        "Efficiency": 0.9908,
+        "Dimensions":
+        {
+            "Height": 2.2,
+            "Width":1.3,
+            "Depth": 1.2 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2022"  
+    }, 
+
+    "Vertiv Liebert TFX" : 
+    {
+        "Capacity": 300,
+        "Efficiency": 0.9902,
+        "Dimensions":
+        {
+            "Height": 2.083,
+            "Width":1.067,
+            "Depth": 0.914 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2025"  
+    }, 
+    
+    "Vertiv Liebert STS2-600" : 
+    {
+        "Capacity": 360,
+        "Efficiency": 0.9762,
+        "Dimensions":
+        {
+            "Height": 1.956,
+            "Width": 1.854 ,
+            "Depth": 1.245  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2018"  
+    }, 
+    "Vertiv Liebert STS2-800" : 
+    {
+        "Capacity": 480,
+        "Efficiency": 0.976,
+        "Dimensions":
+        {
+            "Height": 1.956,
+            "Width" : 2.464 ,
+            "Depth" : 1.245  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2018"  
+    }
+
+}

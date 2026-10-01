@@ -1,0 +1,57 @@
+{
+    "Vertiv XDU 450" : 
+    {
+        "Capacity": 453,
+        "PeakPowerConsumption": 7.3,
+        "Dimensions":
+        {
+            "Height": 1.9,
+            "Width":0.6,
+            "Depth": 1.04 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2022"  
+    }, 
+
+    "Vertiv XDU 1350" : 
+    {
+        "Capacity": 1368,
+        "PeakPowerConsumption": 20.5,
+        "Dimensions":
+        {
+            "Height": 2.069,
+            "Width":0.9,
+            "Depth": 1.243
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2022"  
+    }, 
+
+    "Vertiv CoolChip 600" : 
+    {
+        "Capacity": 600,
+        "PeakPowerConsumption": 9,
+        "Dimensions":
+        { 
+            "Height": 2,
+            "Width":0.6,
+            "Depth": 1.2
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2025"  
+    }, 
+
+    "Vertiv CoolChip 100" : 
+    {
+        "Capacity": 1000,
+        "PeakPowerConsumption": 7.5,
+        "Dimensions":
+        { 
+            "Height": 2,
+            "Width":0.6,
+            "Depth": 1.2
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2025"  
+    }
+}

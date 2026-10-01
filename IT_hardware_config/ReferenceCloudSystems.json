@@ -1,0 +1,190 @@
+{
+    "2024 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU":
+            {
+                "Rackcount": 100, 
+                "RackTDP": 18.7
+            },
+            "Storage": 
+            {
+                "Rackcount": 22,
+                "RackTDP" : 18.4
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    },
+    
+     "2027 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU":
+            {
+                "Rackcount": 100, 
+                "RackTDP": 50
+            },
+            "Storage": 
+            {
+                "Rackcount": 60,
+                "RackTDP" : 18.4
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2027"  
+    }, 
+
+    "2029 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU":
+            {
+                "Rackcount": 100, 
+                "RackTDP": 59.4
+            },
+            "Storage": 
+            {
+                "Rackcount": 60,
+                "RackTDP" : 21.9
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2029"  
+    },
+
+    "HPE POD D44" :
+    {
+        "RackSize": 50,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU":
+            {
+                "Rackcount": 44, 
+                "RackTDP": 23
+            },
+            "Storage": 
+            {
+                "Rackcount": 7,
+                "RackTDP" : 18.4
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2022"  
+    },
+
+    "Fugaku" : 
+    {
+        "RackSize": 42,
+        "RackType" : "HPC",
+        "NodeTypes":
+        {
+            "CPU":
+            {
+                "Rackcount": 414, 
+                "RackTDP": 72.2
+            },
+            "Storage": 
+            {
+                "Rackcount": 11,
+                "RackTDP" : 13.8
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2023"  
+    }, 
+
+    "Microsoft GreenSKU" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU":
+            {
+                "Rackcount": 10, 
+                "RackTDP": 9
+            },
+            "Storage": 
+            {
+                "Rackcount": 1,
+                "RackTDP" : 18.4
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    }, 
+
+    "Microsoft Azure Stack HCI":
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU":
+            {
+                "Rackcount": 5, 
+                "RackTDP": 17.6
+            },
+            "Storage": 
+            {
+                "Rackcount": 1,
+                "RackTDP" : 18.4
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    },
+
+    "Dell PowerEdge R660xs":
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU":
+            {
+                "Rackcount": 13, 
+                "RackTDP": 29.4
+            },
+            "Storage": 
+            {
+                "Rackcount": 4,
+                "RackTDP" : 18.4
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    },
+    
+    "Google Distributed Cloud" : 
+    {
+        "RackSize": 46,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU":
+            {
+                "Rackcount": 19, 
+                "RackTDP": 5
+            },
+            "Storage": 
+            {
+                "Rackcount": 1,
+                "RackTDP" : 20.1
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2021"  
+    }
+}

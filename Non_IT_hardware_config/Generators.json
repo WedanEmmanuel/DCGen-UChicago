@@ -1,0 +1,194 @@
+{
+    "Caterpillar Diesel-C1.1" : 
+    {
+        "Capacity": 8.8,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 16,
+            "Width":0.62,
+            "Depth": 1.4 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Caterpillar Gas-DG125" : 
+    {
+        "Capacity": 125,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 1.448,
+            "Width": 1.295,
+            "Depth": 2.438 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+    
+    "Caterpillar Diesel-C18" : 
+    {
+        "Capacity": 600,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 2.652,
+            "Width": 2.278,
+            "Depth": 5.875
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Caterpillar Diesel-3512C"  : 
+    {
+        "Capacity": 1750,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 2.652,
+            "Width": 2.278,
+            "Depth": 5.875  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Caterpillar Diesel-3516B"  : 
+    {
+        "Capacity": 2000,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 2.494,
+            "Width": 2.286,
+            "Depth": 6.147
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Caterpillar Gas-G3520C"  : 
+    {
+        "Capacity": 2050,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 2.337,
+            "Width": 2.007,
+            "Depth": 6.325 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Caterpillar Diesel-3516C"  : 
+    {
+        "Capacity": 2750,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 3.343,
+            "Width": 2.642,
+            "Depth": 8.512 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Caterpillar Diesel-C175-20"  : 
+    {
+        "Capacity": 4000,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 3.828,
+            "Width": 3.264,
+            "Depth": 8.410 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+     "Caterpillar Diesel-C280-16"  : 
+    {
+        "Capacity": 4840,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 3.978,
+            "Width": 2.530,
+            "Depth": 10.262
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Caterpillar Diesel-3616"  : 
+    {
+        "Capacity": 5320,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 3.978,
+            "Width": 2.530,
+            "Depth": 10.262
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+    
+    "MC Diesel-10MW"  : 
+    {
+        "Capacity": 10000,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 1.47,
+            "Width": 1.050,
+            "Depth": 2.700
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+    "Wartsila Diesel-10MW"  : 
+    {
+        "Capacity": 10000,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 2.94,
+            "Width": 4.7,   
+            "Depth": 21.3
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+    "MC Diesel-12MW"  : 
+    {
+        "Capacity": 12000,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 2.295,
+            "Width": 2.122,   
+            "Depth": 4.495
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+    "MC Diesel-20MW"  : 
+    {
+        "Capacity": 20000,
+        "Efficiency": 1,
+        "Dimensions":
+        {
+            "Height": 2.295,
+            "Width": 2.122,   
+            "Depth": 4.495
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    } 
+}

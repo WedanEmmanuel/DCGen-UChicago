@@ -1,0 +1,203 @@
+{
+    
+    "2024 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 300, 
+                "RackTDP": 158
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 38,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    }, 
+
+    "2027 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 300, 
+                "RackTDP": 600
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 265,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2027"  
+    }, 
+
+    "2029 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 300, 
+                "RackTDP": 1000
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 373,
+                "RackTDP" : 35.3
+            }   
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2029"  
+    },   
+
+
+    "Frontier" : 
+    {
+        "RackSize": 48,
+        "RackType" : "HPC",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 74, 
+                "RackTDP": 17
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 63,
+                "RackTDP" : 18.1
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2021"  
+    }, 
+
+    "Aurora Argonne" : 
+    {
+       "RackSize": 42,
+        "RackType" : "HPC",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 166, 
+                "RackTDP": 228.8
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 64,
+                "RackTDP" : 11.3
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2023"  
+    } , 
+    
+    "xAI COLOSSUS" : 
+    {
+       "RackSize": 48,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 1563, 
+                "RackTDP": 100
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 203,
+                "RackTDP" : 34
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    },
+
+    
+    "DGX SuperPOD" : 
+    {
+       "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 8, 
+                "RackTDP": 120
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 2,
+                "RackTDP" : 21.1
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    },
+
+    "EL CAPITAN" : 
+    {
+        "RackSize": 42,
+        "RackType" : "HPC",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 87, 
+                "RackTDP": 400
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 0,
+                "RackTDP" : 0
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    }, 
+
+    "NVIDIA NVL576" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 300, 
+                "RackTDP": 600
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 265,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2027"  
+    }
+}
+

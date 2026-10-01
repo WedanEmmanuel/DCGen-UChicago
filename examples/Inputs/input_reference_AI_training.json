@@ -1,0 +1,7 @@
+{
+    "datacenter_use_case" : "AI training" ,    
+    "datacenter_scale"    :{ 
+                                "target" : "gpu_count", 
+                                "capacity" : 10000 
+                           }
+}

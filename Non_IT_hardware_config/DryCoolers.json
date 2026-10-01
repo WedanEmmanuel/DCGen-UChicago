@@ -1,0 +1,85 @@
+{
+    "Vertiv Liebert *D**940" : 
+    {
+        "Capacity": 275,
+        "PeakPowerConsumption": 4.48,
+        "Dimensions":
+        {
+            "Height": 2.39,
+            "Width":0.91,
+            "Depth": 4.62 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2023"  
+    }, 
+
+    "Vertiv Liebert *D**700" : 
+    {
+        "Capacity": 207,
+        "PeakPowerConsumption": 3.36,
+        "Dimensions":
+        {
+            "Height": 2.39,
+            "Width":0.91,
+            "Depth": 3.61 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2023"  
+    }, 
+
+    "Vertiv Liebert *D**491" : 
+    {
+        "Capacity": 137,
+        "PeakPowerConsumption": 2.24,
+        "Dimensions":
+        {
+            "Height": 1.6,
+            "Width":0.91,
+            "Depth": 4.62 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2023"  
+    }, 
+
+    "Vertiv Liebert *D**350" : 
+    {
+        "Capacity": 103,
+        "PeakPowerConsumption": 1.68,
+        "Dimensions":
+        {
+            "Height": 1.6,
+            "Width":0.91,
+            "Depth": 3.61
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2023"  
+    }, 
+
+    "Vertiv Liebert *D**225" : 
+    {
+        "Capacity": 67.7,
+        "PeakPowerConsumption": 1.12,
+        "Dimensions":
+        {
+            "Height": 1.6,
+            "Width":0.91,
+            "Depth": 2.59
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2023"  
+    }, 
+
+    "Vertiv Liebert *D**112" : 
+    {
+        "Capacity": 34.6,
+        "PeakPowerConsumption": 0.56,
+        "Dimensions":
+        {
+            "Height": 1.6,
+            "Width":0.91,
+            "Depth": 2.57
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2023"  
+    }
+}

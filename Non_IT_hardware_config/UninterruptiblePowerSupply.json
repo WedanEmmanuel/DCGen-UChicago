@@ -1,0 +1,72 @@
+{
+    "Vertiv Liebert APM" : 
+    {
+        "Capacity": 600,
+        "Efficiency": 0.963,
+        "Dimensions":
+        {
+            "Height": 2,
+            "Width":1.8,
+            "Depth": 1.244 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2021"  
+    }, 
+
+    "Vertiv Liebert PowerUPS9000" : 
+    {
+        "Capacity": 1250,
+        "Efficiency": 0.975,
+        "Dimensions":
+        {
+            "Height": 2,
+            "Width":2,
+            "Depth": 1 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2025"  
+    }, 
+    
+    "Vertiv Liebert TrinergyUPS" : 
+    {
+        "Capacity": 2500,
+        "Efficiency": 0.971,
+        "Dimensions":
+        {
+            "Height": 2.013,
+            "Width":6.392,
+            "Depth": 1.048 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    },
+
+    "Vertiv Liebert EXLS1" : 
+    {
+        "Capacity": 1200,
+        "Efficiency": 0.97,
+        "Dimensions":
+        {
+            "Height": 2,
+            "Width":2.65,
+            "Depth": 0.91 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }, 
+
+    "Vertiv Liebert PowerModuleH2" : 
+    {
+        "Capacity": 3000,
+        "Efficiency": 0.97,
+        "Dimensions":
+        {
+            "Height": 6.3,
+            "Width":3.3,
+            "Depth": 16 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }
+
+}

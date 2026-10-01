@@ -1,0 +1,113 @@
+{
+    "Evapco AT 14-3G6" : 
+    {
+        "Capacity": 151,
+        "PeakPowerConsumption": 4,
+        "Dimensions":
+        {
+            "Height": 3.213,
+            "Width":1.232,
+            "Depth": 1.826
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }, 
+
+    "Evapco AT 14-3F9" : 
+    {
+        "Capacity": 351.7,
+        "PeakPowerConsumption": 4.4,
+        "Dimensions":
+        {
+            "Height": 3.213,
+            "Width":1.232 ,
+            "Depth": 3.651
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }, 
+
+    "Evapco AT 14-3G12" : 
+    {
+        "Capacity": 527.5,
+        "PeakPowerConsumption": 8,
+        "Dimensions":
+        { 
+            "Height": 3.213,
+            "Width": 1.232 ,
+            "Depth": 3.651
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }, 
+
+    "Evapco AT 39-4M42" : 
+    {
+        "Capacity": 4357.4,
+        "PeakPowerConsumption": 67.2,
+        "Dimensions":
+        { 
+            "Height": 4.439,
+            "Width":2.578,
+            "Depth": 12.910   
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }, 
+
+    "Evapco AT 310-4N36" : 
+    {
+        "Capacity": 4276.5,
+        "PeakPowerConsumption": 78.3,
+        "Dimensions":
+        { 
+            "Height": 5.315,
+            "Width":2.991,
+            "Depth": 11.081   
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }, 
+
+    "Evapco AT 424-4N28" : 
+    {
+        "Capacity": 8029,
+        "PeakPowerConsumption": 160,
+        "Dimensions":
+        { 
+            "Height": 5.645,
+            "Width":7.344,
+            "Depth": 8.579   
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }, 
+
+    "Evapco AT 428-4Q48" : 
+    {
+        "Capacity": 14873,
+        "PeakPowerConsumption": 224,
+        "Dimensions":
+        { 
+            "Height": 5.934,
+            "Width":8.626,
+            "Depth": 15.570   
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }, 
+
+    "Evapco AT 456-5O26" : 
+    {
+        "Capacity": 17848,
+        "PeakPowerConsumption": 298.4,
+        "Dimensions":
+        { 
+            "Height": 6.794,
+            "Width":7.845,
+            "Depth": 17.383    
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2020"  
+    }
+}

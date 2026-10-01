@@ -1,0 +1,68 @@
+{
+    "2024 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 300, 
+                "RackTDP": 158
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 38,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    }, 
+
+    "2027 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 300, 
+                "RackTDP": 600
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 265,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2027"  
+    }, 
+
+     "2029 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "GPU":
+            {
+                "Rackcount": 300, 
+                "RackTDP": 1000
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 373,
+                "RackTDP" : 35.3
+            }   
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2029"  
+    }
+}
+

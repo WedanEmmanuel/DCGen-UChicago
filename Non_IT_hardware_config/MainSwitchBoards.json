@@ -1,0 +1,155 @@
+{
+    "Vertiv UL1066-2000A" : 
+    {
+        "Capacity": 1200,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.286,
+            "Width":1.855,
+            "Depth": 0.762
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Vertiv UL1066-3200A" : 
+    {
+        "Capacity": 1920,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.286,
+            "Width": 2.057,
+            "Depth": 0.762  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+    
+    "Vertiv UL1066-4000A" : 
+    {
+        "Capacity": 2400,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.286,
+            "Width": 2.057,
+            "Depth": 0.762   
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Vertiv UL1066-5000A"  : 
+    {
+        "Capacity": 3000,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.286,
+            "Width": 2.235,
+            "Depth": 0.762  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Vertiv UL1066-6000A"  : 
+    {
+        "Capacity": 3600,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.286,
+            "Width": 2.438,
+            "Depth": 0.762  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Vertiv UL1066-2000A-double stack"  : 
+    {
+        "Capacity": 1200,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.286,
+            "Width": 1.855,
+            "Depth": 0.94  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Vertiv UL1066-3200A-double stack"  : 
+    {
+        "Capacity": 1920,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.286,
+            "Width": 2.057,
+            "Depth": 0.94  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Vertiv LVS-1600A"  : 
+    {
+        "Capacity": 1104,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.304,
+            "Width": 2.88,
+            "Depth": 1.536  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Vertiv LVS-3200A"  : 
+    {
+        "Capacity": 2208,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.688,
+            "Width": 3.072,
+            "Depth": 1.728  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+
+    "Vertiv LVS-4000"  : 
+    {
+        "Capacity":  2760,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.688,
+            "Width": 3.264 ,
+            "Depth": 1.728 
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }, 
+    "Vertiv LVS-6300A"  : 
+    {
+        "Capacity": 4347,
+        "Efficiency": 0.99,
+        "Dimensions":
+        {
+            "Height": 2.688,
+            "Width": 3.840  ,
+            "Depth": 1.728  
+        },
+        "AccessAreaShare": 0.2,
+        "Generation" : "2024"  
+    }
+
+}

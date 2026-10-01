@@ -1,0 +1,238 @@
+{
+     "2024 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {
+                "Rackcount": 100, 
+                "RackTDP": 50
+            },
+
+            "CPU": 
+            {
+                "Rackcount": 100,
+                "RackTDP" : 18.7
+            }, 
+            
+            "Storage": 
+            {
+                "Rackcount": 24,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    }, 
+
+    "2027 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {
+                "Rackcount": 100, 
+                "RackTDP": 90
+            },
+
+            "CPU": 
+            {
+                "Rackcount": 100,
+                "RackTDP" : 50
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 55,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2027"  
+    }, 
+
+     "2029 Canonical Configuration" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {
+                "Rackcount": 100, 
+                "RackTDP": 152.1
+            },
+
+            "CPU": 
+            {
+                "Rackcount": 100,
+                "RackTDP" : 59.4
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 68,
+                "RackTDP" : 35.73 
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2029"  
+    }, 
+
+     "Lenovo SR670 V2" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {
+                "Rackcount": 348, 
+                "RackTDP": 33.6
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 1,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2021"  
+    },
+       
+    "Dell PowerEdge XE7745" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {
+                "Rackcount": 43, 
+                "RackTDP": 33.6
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 1,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2025"  
+    } , 
+
+    "IBM's Gen AI" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {
+                "Rackcount": 25, 
+                "RackTDP": 40
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 1,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    }, 
+    
+     "Supermicro inference rack" : 
+    {
+        "RackSize": 48,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {
+                "Rackcount": 14, 
+                "RackTDP": 51.2
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 1,
+                "RackTDP" : 34
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    }, 
+
+    "PowerEdge R760xa rack" : 
+    {
+        "RackSize": 42,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {
+                "Rackcount": 6, 
+                "RackTDP": 58.8
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 1,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2024"  
+    } , 
+
+    "ChatGPT" : 
+    {
+       "RackSize": 40,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {        
+                "Rackcount": 362, 
+                "RackTDP": 52
+            },
+            "Storage":
+            {
+                "Rackcount": 26,
+                "RackTDP" : 29.7
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2022"  
+    },
+
+    "Google GDC Edge" : 
+    {
+        "RackSize": 46,
+        "RackType" : "Cloud",
+        "NodeTypes":
+        {
+            "CPU-GPU":
+            {
+                "Rackcount": 1, 
+                "RackTDP": 16.5
+            },
+
+            "Storage": 
+            {
+                "Rackcount": 0,
+                "RackTDP" : 0
+            }
+        },
+        "floorSpace": 1.8,
+        "Generation" : "2021"  
+    }
+}
