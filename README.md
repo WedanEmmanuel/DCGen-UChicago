@@ -87,29 +87,36 @@ Working examples of function calls are provided in [examples/AI_training.py](./e
 
 - **configure_target_datacenter(input_parameter)**: configures the target datacenter (IT, cooling, power distribution) with the inputs specified. You can provide```input_parameter``` as one of these: (1) a JSON file path containing the input data structure, (2) a JSON string, or (3) a python  dictionary.  
 
-- **get_datacenter_it_configurations()**: gives the datacenter IT configurations. Example outputs: 
+- **get_datacenter_it_configurations()**: gives the datacenter IT configurations. 
+- **get_summary_cooling_system_configurations()**: gives a summary of cooling power and space.
+- **get_summary_power_distribution_system_configurations()**: gives a summary of  power overhead and space. 
+	
+	
 
+
+## Interpreting the Outputs
+- Datacenter IT configuration 
 	```python
-	"IT configuration": {
-		"Datacenter (2024 Canonical Configuration)": { #Name of the reference configuration, by default, set to 2024 Canonical Configuration
-			"Peak power (MW)": {  #Power demand broken down by type of IT hardware
-				"GPU": 7.11,      #Power of GPU systems 
-				"Storage": 0.387  #Power of storage systems 
-			},
-			"Rack count": {  ## Number of racks per hardware type 
-				"GPU": 45,   #With  the 2024 Canonical Configuration, each GPU rack consumes 158kW, equivalent to 225 H200 GPUs per rack
-				"Storage": 13 # With  the 2024 Canonical Configuration, each storage rack contains 42 storage servers  
-			},
-			"Power density (kW/m²)": 47.648,   # Amount of power consumed per m² in the IT area
-			"Space Utilization (m²)": 185.4,    # Total space used by IT
-			"Hardware Generation": "2024"      # Year of the reference model
+		"IT configuration": {
+			"Datacenter (2024 Canonical Configuration)": { #Name of the reference configuration, by default, set to 2024 Canonical Configuration
+				"Peak power (MW)": {  #Power demand broken down by type of IT hardware
+					"GPU": 7.11,      #Power of GPU systems 
+					"Storage": 0.387  #Power of storage systems 
+				},
+				"Rack count": {  ## Number of racks per hardware type 
+					"GPU": 45,   #With  the 2024 Canonical Configuration, each GPU rack consumes 158kW, equivalent to 225 H200 GPUs per rack
+					"Storage": 13 # With  the 2024 Canonical Configuration, each storage rack contains 42 storage servers  
+				},
+				"Power density (kW/m²)": 47.648,   # Amount of power consumed per m² in the IT area
+				"Space Utilization (m²)": 185.4,    # Total space used by IT
+				"Hardware Generation": "2024"      # Year of the reference model
+			}
 		}
-	}
-	```
-	Total IT Power: GPU power + Storage power
+		```
+		Total IT Power: GPU power + Storage power.
 
 
-- **get_summary_cooling_system_configurations()**: gives a summary of cooling power and space. Example output:
+- Datacenter Cooling System 
 	```python 
 		"Cooling System": {
 		"Datacenter (2024 Canonical Configuration)": { #Name of the reference configuration, by default, set to 2024 Canonical Configuration
@@ -124,11 +131,10 @@ Working examples of function calls are provided in [examples/AI_training.py](./e
 	}
 
 	```
-	Total Cooling Space (assuming outside equipment is not placed on the building’s roof): space in datacenter floor  + space outside
+	Total Cooling Space (assuming outside equipment is not placed on the building’s roof): space in datacenter floor  + space outside.
 
 
-- **get_summary_power_distribution_system_configurations()**: gives a summary of  power overhead and space. Example output:
-	
+- Datacenter  Power Distribution System 
 	```python 
 		"Power Distribution System": {
 		"Datacenter (2024 Canonical Configuration)": { #Name of the reference configuration, by default, set to 2024 Canonical Configuration
@@ -142,10 +148,7 @@ Working examples of function calls are provided in [examples/AI_training.py](./e
 		}
 	}
 	```
-	Total Power Infrastructure Space (assuming outside equipment is not placed on the building’s roof): space in datacenter floor  + space outside
-
-
-
+	Total Power Infrastructure Space (assuming outside equipment is not placed on the building’s roof): space in datacenter floor  + space outside.
 
 
 
