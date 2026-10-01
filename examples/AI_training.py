@@ -7,9 +7,6 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_PARAMETERS_DIR = BASE_DIR + '/Inputs/input_reference_AI_training.json'
 
-OUTPUT_DIR = BASE_DIR + "/Output-configurations/"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
 
 try:
     with open(INPUT_PARAMETERS_DIR, "r") as f :
@@ -69,4 +66,6 @@ print('-------- SHOW A SUMMARY OF THE POWER DISTRIBUTION SYSTEM --------')
 print(get_summary_power_distribution_system_configurations())
 
 """print('-------- SAVE CONFIGURATIONS IN A FILE OF YOUR CHOICE --------')
+OUTPUT_DIR = BASE_DIR + "/Output-configurations/"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 save_datacenter_configuration(DATACENTER_CONFIG, filepath= OUTPUT_DIR + 'AI_training_10000_racks.json', single_file=True)"""
