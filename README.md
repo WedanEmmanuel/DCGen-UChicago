@@ -23,8 +23,8 @@ pip install -e .  #install the required packages
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
 ## Quick start with Examples of Datacenter Configurations
-- Sample Python scripts  for AI training and AI inference configuration provided in [examples](./examples/) folder
-- Sample inputs for AI training and AI inference given in  [examples/Inputs](./examples/Inputs) 
+- Sample Python scripts  for AI training  configuration provided in [examples](./examples/) folder
+- Sample inputs for AI training given in  [examples/Inputs](./examples/Inputs) 
 - Sample execution logs provided in [examples/logs](./examples/logs) 
 
 - To run the examples, type the command
@@ -35,7 +35,6 @@ pip install -e .  #install the required packages
 	```python
 	cd examples 
 	python3 AI_training.py   # Run AI training datacenter configuration 
-	python3 AI_inference.py   # Run AI training datacenter configuration 
 	``` 
 
 ## Instructions to Generate Datacenter Configurations
@@ -84,44 +83,22 @@ Use the scripts provided in [examples](./examples/)  as reference.
 	``` 
 
 ## Functions
-Working examples of function calls are provided in  [examples/AI_inference.py](./examples/AI_inference.py) and [examples/AI_training.py](./examples/AI_training.py)
+Working examples of function calls are provided in [examples/AI_training.py](./examples/AI_training.py)
 
 - **configure_target_datacenter(input_parameter)**: configures the target datacenter (IT, cooling, power distribution) with the inputs specified. You can provide```input_parameter``` as one of these: (1) a JSON file path containing the input data structure, (2) a JSON string, or (3) a python  dictionary.  
 
 - **get_datacenter_it_configurations()**: gives the datacenter IT configurations. Example outputs: 
-	-	AI Training Datacenter
-		```python
-		"IT configuration": {
-			"Datacenter (2024 Canonical Configuration)": { #Name of the reference configuration, by default, set to 2024 Canonical Configuration
-				"Peak power (MW)": {  #Power demand broken down by type of IT hardware
-					"GPU": 7.11,      #Power of GPU systems 
-					"Storage": 0.387  #Power of storage systems 
-				},
-				"Rack count": {  ## Number of racks per hardware type 
-					"GPU": 45,   #With  the 2024 Canonical Configuration, each GPU rack consumes 158kW, equivalent to 225 H200 GPUs per rack
-					"Storage": 13 # With  the 2024 Canonical Configuration, each storage rack contains 42 storage servers  
-				},
-				"Power density (kW/m²)": 47.648,   # Amount of power consumed per m² in the IT area
-				"Space Utilization (m²)": 185.4,    # Total space used by IT
-				"Hardware Generation": "2024"      # Year of the reference model
-			}
-		}
-		```
-		Total IT Power: GPU power + Storage power
 
-	-	For AI Inference datacenter
 	```python
 	"IT configuration": {
 		"Datacenter (2024 Canonical Configuration)": { #Name of the reference configuration, by default, set to 2024 Canonical Configuration
 			"Peak power (MW)": {  #Power demand broken down by type of IT hardware
-				"CPU-GPU": 100.0,   #Power of GPU systems 
-				"CPU": 37.4,        #Power of CPU only servers
-				"Storage":  8.653    #Power of storage systems 
+				"GPU": 7.11,      #Power of GPU systems 
+				"Storage": 0.387  #Power of storage systems 
 			},
 			"Rack count": {  ## Number of racks per hardware type 
-				"CPU-GPU": 2000,   #With  the 2024 Canonical Configuration, each CPU-GPU rack consumes 50kW, equivalent to 71  H200 GPUs per rack, 
-				"CPU": 2000,  #With  the 2024 Canonical Configuration, each CPU rack consumes 18.7kW
-				"Storage": 291 # With  the 2024 Canonical Configuration, each storage rack contains 42 storage servers  
+				"GPU": 45,   #With  the 2024 Canonical Configuration, each GPU rack consumes 158kW, equivalent to 225 H200 GPUs per rack
+				"Storage": 13 # With  the 2024 Canonical Configuration, each storage rack contains 42 storage servers  
 			},
 			"Power density (kW/m²)": 47.648,   # Amount of power consumed per m² in the IT area
 			"Space Utilization (m²)": 185.4,    # Total space used by IT
@@ -129,7 +106,8 @@ Working examples of function calls are provided in  [examples/AI_inference.py](.
 		}
 	}
 	```
-	Total IT Power: CPU-GPU power + CPU power +  Storage power
+	Total IT Power: GPU power + Storage power
+
 
 - **get_summary_cooling_system_configurations()**: gives a summary of cooling power and space. Example output:
 	```python 
