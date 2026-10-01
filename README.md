@@ -25,12 +25,12 @@ pip install -e .  #install the required packages
 ## Quick start with Examples of Datacenter Configurations
 - Sample Python scripts  for AI training  configuration provided in [examples](./examples/) folder
 - Sample inputs for AI training given in  [examples/Inputs](./examples/Inputs) 
-- Sample execution logs provided in [examples/logs](./examples/logs) 
 
-- To run the examples, type the command
+- To run the examples, type the command below. Execution logs are saved in [examples/logs](./examples/logs).
 	```python
 	run-dcgen-examples  # Run all python examples of datacenter configurations  (in "examples/" directory)
 	``` 
+
 	or 
 	```python
 	cd examples 
