@@ -22,7 +22,7 @@ pip install -e .  #install the required packages
 ```
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
-## Quick start with Examples of Datacenter Configurations
+## Quick Start: Datacenter Configuration Examples
 - Sample Python scripts  for AI training  configuration provided in [examples](./examples/) folder
 - Sample inputs for AI training given in  [examples/Inputs](./examples/Inputs) 
 
@@ -37,7 +37,7 @@ pip install -e .  #install the required packages
 	python3 AI_training.py   # Run AI training datacenter configuration 
 	``` 
 
-## Instructions to Generate Datacenter Configurations
+## Instructions for Generating Datacenter Configurations
 - Create a new folder (Optional)
 	```python 
 	mkdir dir_name # Replace dir_name with the name you want to give your folder.
